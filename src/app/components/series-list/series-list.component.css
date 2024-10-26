@@ -1,0 +1,8 @@
+.card-margin{
+    padding: 5px;
+}
+
+#TableBody tr:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
