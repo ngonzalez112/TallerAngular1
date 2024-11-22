@@ -1,20 +1,20 @@
 export class Serie {
     id: number;
-    title: string;
-    network: string;
+    name: string;
+    channel: string;
     seasons: number;
     description: string;
-    website: string;
-    image: string;
+    webpage: string;
+    poster: string;
 
     constructor(id:number, title:string, network:string, seasons:number, description:string, website:string, image:string){
         this.id = id;
-        this.title = title;
-        this.network = network;
+        this.name = title;
+        this.channel = network;
         this.seasons = seasons;
         this.description = description;
-        this.website = website;
-        this.image = image;
+        this.webpage = website;
+        this.poster = image;
     }  
 
 

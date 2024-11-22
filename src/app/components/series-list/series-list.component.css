@@ -1,8 +1,8 @@
-.card-margin{
-    padding: 5px;
-}
-
-#TableBody tr:hover{
+.cursor-pointer {
     cursor: pointer;
-    border: 1px solid black;
-}
+  }
+  
+  /* Opcional: resalta la fila al pasar el ratón */
+  .cursor-pointer:hover {
+    background-color: #f0f0f0;
+  }
